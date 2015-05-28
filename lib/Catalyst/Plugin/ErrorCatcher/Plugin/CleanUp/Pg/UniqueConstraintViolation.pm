@@ -1,5 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation;
-$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation::VERSION = '0.0.8.17';
+$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation::VERSION = '0.0.8.18';
 {
   $Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
@@ -51,7 +51,7 @@ Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation -
 
 =head1 VERSION
 
-version 0.0.8.17
+version 0.0.8.18
 
 =head2 tidy_message($self, $stringref)
 

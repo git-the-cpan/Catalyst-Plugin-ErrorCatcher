@@ -1,5 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted;
-$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted::VERSION = '0.0.8.17';
+$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted::VERSION = '0.0.8.18';
 {
   $Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
@@ -46,7 +46,7 @@ Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted - cleanu
 
 =head1 VERSION
 
-version 0.0.8.17
+version 0.0.8.18
 
 =head2 tidy_message($self, $stringref)
 
