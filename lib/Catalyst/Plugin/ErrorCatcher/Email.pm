@@ -1,7 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::Email;
-{
-  $Catalyst::Plugin::ErrorCatcher::Email::VERSION = '0.0.8.15';
-}
+$Catalyst::Plugin::ErrorCatcher::Email::VERSION = '0.0.8.16';
 {
   $Catalyst::Plugin::ErrorCatcher::Email::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
@@ -171,13 +169,15 @@ sub _munge_path {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Catalyst::Plugin::ErrorCatcher::Email - an email emitter for Catalyst::Plugin::ErrorCatcher
 
 =head1 VERSION
 
-version 0.0.8.15
+version 0.0.8.16
 
 =head1 SYNOPSIS
 
@@ -232,13 +232,17 @@ Allowing you to set your subject like this:
    subject    Report from: %h; %F, line %l
   </Plugin::ErrorCatcher::Email>
 
+=head2 emit($class, $c, $output)
+
+Emit the error report by email.
+
 =head1 AUTHOR
 
 Chisel <chisel@chizography.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Chisel Wright.
+This software is copyright (c) 2015 by Chisel Wright.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

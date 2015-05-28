@@ -1,7 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::File;
-{
-  $Catalyst::Plugin::ErrorCatcher::File::VERSION = '0.0.8.15';
-}
+$Catalyst::Plugin::ErrorCatcher::File::VERSION = '0.0.8.16';
 {
   $Catalyst::Plugin::ErrorCatcher::File::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
@@ -80,13 +78,15 @@ sub _write_file {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Catalyst::Plugin::ErrorCatcher::File - a file emitter for Catalyst::Plugin::ErrorCatcher
 
 =head1 VERSION
 
-version 0.0.8.15
+version 0.0.8.16
 
 =head1 SYNOPSIS
 
@@ -110,13 +110,17 @@ In your application configuration:
 
   </Plugin::ErrorCatcher::File>
 
+=head2 emit($class, $c, $output)
+
+Emit the error report to a file.
+
 =head1 AUTHOR
 
 Chisel <chisel@chizography.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Chisel Wright.
+This software is copyright (c) 2015 by Chisel Wright.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

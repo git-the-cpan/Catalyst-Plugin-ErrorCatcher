@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,29 +14,28 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 0ba0ae70cba5872d68d829d32659d0cd4df8122c Changes
-SHA1 a03bfc3c074b3b08086d5980f8afdf8cf4a27cec LICENSE
-SHA1 d484351129017cd72daccd35de607937400fa3e9 MANIFEST
+SHA1 2c3a4392923ffbed25813371c140d6582b35206f Changes
+SHA1 ccee2d33d830e2dabe61e50e27da259cd43b29a5 LICENSE
+SHA1 829101385288bcf974738917575aeb3d15e97991 MANIFEST
 SHA1 24a5a60c1c311b8915392fc17bc4e4ca4bbe10e4 MANIFEST.SKIP
-SHA1 7e1471f15b523a8a76ae1e1c4dbde772d661fd88 META.yml
-SHA1 88ce6d490abd467f281a2221ed82731dbf5a94c4 Makefile.PL
-SHA1 1bb88280f4871dcf4e2e7519fcc2b4583bb79ad1 README
-SHA1 7a04f206e2fc7daf88f8da7c2f09472a7aa3cbc9 README.mkdn
-SHA1 d7c24969ca509f3ec80ab0df51a8b9045e43198a lib/Catalyst/Plugin/ErrorCatcher.pm
-SHA1 50ca81c89bc71128b85915f94e5d9c1ea06ab4b6 lib/Catalyst/Plugin/ErrorCatcher/Email.pm
-SHA1 d4c9c76e3375611d992e93767f41600b5f53f1fb lib/Catalyst/Plugin/ErrorCatcher/File.pm
-SHA1 77e4c8e1c442336eb33dad4d3eca2c2619c609ff lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
-SHA1 b722b5c2a776652683906ab6099afa4d1c91a4a6 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
-SHA1 416583601c5999a241798ddc7b52aa0375968311 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
-SHA1 e8234fdd0c5887f78cf0139ffdf112c7d01be27a lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
-SHA1 f9687ac0f33b6047792114c86d3a8454338a5610 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
-SHA1 981b408fbc9cc676e08d965c4fc76ee1b9958174 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
+SHA1 72aca38fde12909d22063434164b6696f3e9e983 META.yml
+SHA1 4bdd384e155362ccce25b69ac9be5fa6d1ff5973 Makefile.PL
+SHA1 dc82133d71885d683cc6438266cb79f58a5f0969 README.mkdn
+SHA1 15aa5ba0759ce38bc8b84a7937abcd164c4d3b55 lib/Catalyst/Plugin/ErrorCatcher.pm
+SHA1 ad23095e2d0cae2ce4ca22d60060ac61a0980791 lib/Catalyst/Plugin/ErrorCatcher/Email.pm
+SHA1 840e85339aaa189efcf46d7bb46b61c8dfb3e39a lib/Catalyst/Plugin/ErrorCatcher/File.pm
+SHA1 0205aeaa8bed77f1ee07cd299ef5b6afd1a9ab0b lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
+SHA1 33505fab163410330798e317986654c3aee8c843 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
+SHA1 596f4d92e22642583275ab41f2d9b4b58b701764 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
+SHA1 c746756df544f9cae58b02397f46114734fd102c lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
+SHA1 f744a7ef81432fdb0b6a866e50093ba1908bc918 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
+SHA1 abe60abba0333534d2a8fd4be609de67cbd4ead7 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
 SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
 SHA1 26425978dac25cdee265b48081e2a89e25cd4a35 t/00.basic.t
 SHA1 c3ae4b51a81956912e36bca143478c36c85d84e0 t/01.no.tabs.t
 SHA1 56ff89dd6e4425e62134816a56391731a02967d5 t/03.config.t
 SHA1 531ca231559a4f70e40747dc74a7c113d77b0bd3 t/04.cleaned.t
-SHA1 faefccacfb47d0d1dd9e5a4668cad113502834fe t/04.trace.t
+SHA1 3e1183d8e2e67f8df5a656ce14d46a3003524539 t/04.trace.t
 SHA1 4d84e6cba5c8bd1bde3d9ae483cc7a5b0afd5567 t/05.emit.email.cc.t
 SHA1 207d39f241c7dd0278b5887dccc642b9373907f1 t/05.emit.email.t
 SHA1 19d7edb72b738a9f6ef0a178d63a76c7bbd45b36 t/06.email.file.path.t
@@ -44,6 +43,7 @@ SHA1 fe7e4295876d190c845f400ba66a7d4cae33b58a t/06.emit.file.t
 SHA1 c5aa1228ab516de6153d12b79093d3f8423826b8 t/07.emitter.moose.new.t
 SHA1 5faa0dc35b67d836aeb39f2c92ed0f0d7aa14043 t/07.emitter.new.t
 SHA1 ca7482937c18a99f4ad81499fe405736c24f7c43 t/08.report.session.t
+SHA1 af1e333f2f8cd0da47082aef02c58b1b97dda892 t/author-no-tabs.t
 SHA1 bffcfa9f1495668abb077ace9bb4073ac76e50bf t/bug/RT54071.t
 SHA1 1ca03a0e31807ead5612c4774801279f2249c0be t/lib/My/Emitter.pm
 SHA1 3ec6fd5342b508414543726f13451dd2a5521b1d t/lib/My/MooseEmitter.pm
@@ -60,14 +60,13 @@ SHA1 d7d5ae0ca1cd7434db590964abd0217727fb307b t/lib/testapp-session.conf
 SHA1 bf4c1c102f14922f9cf09994fcd63a4f1be3546d t/lib/testapp.conf
 SHA1 af2865e9a987a3976f029b6a7890c3f57737cd95 t/lib/testapp_emitinit.conf
 SHA1 5454005a457f0f8c6915a0de69ab5fc599e6b07b t/lib/testapp_mooseemitinit.conf
-SHA1 3d3e9f1370ee4c83d847fe06b77bae14ac1e131a t/release-kwalitee.t
-SHA1 710642e80d1ec1362512fa5d5c619ec34cec74d1 t/release-no-tabs.t
-SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
-SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+SHA1 a8a3b6c291113fff0f1765ef584a08bc4498bdc0 t/release-kwalitee.t
+SHA1 5cf386f49901e8ccaad5ab271036754d67114081 t/release-pod-coverage.t
+SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAlKYdqgACgkQh4j7xTiFuxEUowCeLxiA7/WOxtCZ7+rWUEY1b/LA
-2MAAnjVzqpM3Da7jKFw/SSrzxvuEagqp
-=SpD9
+iEYEARECAAYFAlVm/50ACgkQh4j7xTiFuxEXHACfQfw60XIjFeo6ciW2M3rxlXw8
+LDsAniMbgn0CWGgE9YH0vkLWTLz15v9g
+=Zt9D
 -----END PGP SIGNATURE-----

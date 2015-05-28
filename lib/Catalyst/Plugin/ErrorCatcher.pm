@@ -1,7 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher;
-{
-  $Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.15';
-}
+$Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.16';
 {
   $Catalyst::Plugin::ErrorCatcher::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
@@ -298,7 +296,6 @@ sub _cleaned_error_message {
     return $error_message;
 }
 
-
 sub append_feedback {
     my $fb_ref = shift;
     my $data   = shift;
@@ -569,13 +566,15 @@ sub _print_context {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Catalyst::Plugin::ErrorCatcher - Catch application errors and emit them somewhere
 
 =head1 VERSION
 
-version 0.0.8.15
+version 0.0.8.16
 
 =head1 SYNOPSIS
 
@@ -586,6 +585,52 @@ version 0.0.8.15
 This plugin allows you to do More Stuff with the information that would
 normally only be seen on the Catalyst Error Screen courtesy of the
 L<Catalyst::Plugin::StackTrace> plugin.
+
+=head2 setup($c, $@)
+
+Prepare the plugin for use.
+
+=head2 finalize_error($c)
+
+If configured, and needed, deal with raised errors.
+
+=head2 my_finalize_error($c)
+
+This is the method that's called by C<finalize_error> when we do want to use ErrorCatcher
+to format and emit some information.
+
+=head2 emitters_init($c)
+
+This routine initialises the emitters enabled in the configuration for the plugin.
+
+=head2 append_feedback($stringref, $data)
+
+This is a small utility method that simplifies some of the work needed to
+add some data to a string-reference, including some basic checks and initialisation.
+
+=head2 append_feedback_emptyline
+
+Add an empty-line to the string-reference of data being built.
+
+=head2 append_feedback_keyvalue($ref, $key, $value, $keypadding)
+
+Add:
+
+    {key}: value
+
+to the feedback data being prepared.
+
+C<$keypadding> is optional. If omitted, defaults to 8.
+
+=head2 sanitise_param($value)
+
+Local implementation of L<Data::Dumper/qquote> and general sanity checks and
+transformations of the data in a given piece of data.
+
+=head2 append_output_params($ref, $label, $params)
+
+Given a hashref of related items, C<$params>, and a C<$label> for the grouping,
+add sensibly formatted output to the feedback data being constructed.
 
 =head1 CONFIGURATION
 
@@ -783,7 +828,7 @@ Chisel <chisel@chizography.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Chisel Wright.
+This software is copyright (c) 2015 by Chisel Wright.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
