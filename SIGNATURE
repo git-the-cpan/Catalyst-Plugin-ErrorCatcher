@@ -14,22 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2c3a4392923ffbed25813371c140d6582b35206f Changes
+SHA1 112fd39a447174d1c7f0f89295c3494ea87c8c22 Changes
 SHA1 ccee2d33d830e2dabe61e50e27da259cd43b29a5 LICENSE
 SHA1 829101385288bcf974738917575aeb3d15e97991 MANIFEST
 SHA1 24a5a60c1c311b8915392fc17bc4e4ca4bbe10e4 MANIFEST.SKIP
-SHA1 72aca38fde12909d22063434164b6696f3e9e983 META.yml
-SHA1 4bdd384e155362ccce25b69ac9be5fa6d1ff5973 Makefile.PL
-SHA1 dc82133d71885d683cc6438266cb79f58a5f0969 README.mkdn
-SHA1 15aa5ba0759ce38bc8b84a7937abcd164c4d3b55 lib/Catalyst/Plugin/ErrorCatcher.pm
-SHA1 ad23095e2d0cae2ce4ca22d60060ac61a0980791 lib/Catalyst/Plugin/ErrorCatcher/Email.pm
-SHA1 840e85339aaa189efcf46d7bb46b61c8dfb3e39a lib/Catalyst/Plugin/ErrorCatcher/File.pm
-SHA1 0205aeaa8bed77f1ee07cd299ef5b6afd1a9ab0b lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
-SHA1 33505fab163410330798e317986654c3aee8c843 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
-SHA1 596f4d92e22642583275ab41f2d9b4b58b701764 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
-SHA1 c746756df544f9cae58b02397f46114734fd102c lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
-SHA1 f744a7ef81432fdb0b6a866e50093ba1908bc918 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
-SHA1 abe60abba0333534d2a8fd4be609de67cbd4ead7 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
+SHA1 9045482fb073c85e93d9920f0e80caaf98868ff0 META.yml
+SHA1 84f4fb9b69f1371fc275aa909d5b8131f5a763c7 Makefile.PL
+SHA1 b915d88978e85ddc1f0812fa9544899efa71f0a7 README.mkdn
+SHA1 bc703305b57eb2cd90cc75b543d1273a1917a4d6 lib/Catalyst/Plugin/ErrorCatcher.pm
+SHA1 4ac3f25f6fdbcbcd54902f6516c05e94e5571432 lib/Catalyst/Plugin/ErrorCatcher/Email.pm
+SHA1 3bb94f58aa6e12c3425bf95eadec95b15c0cfd35 lib/Catalyst/Plugin/ErrorCatcher/File.pm
+SHA1 3c75a78b7fbc46e4ca8e67bae05f30e6ff676007 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
+SHA1 f5d35c55ac883205ce7a346575ead25d0f495c47 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
+SHA1 8d398b650d9d52f83a3626a119facc65d879372b lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
+SHA1 a486f05482d6dc6dbfeff9d9c5b418d1ec828e48 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
+SHA1 da2a89a4cb9d117fa187e2c072c19f7dabdfd325 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
+SHA1 fa68b8ed872eac4acd0d67cb773b0ad92b08a87a lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
 SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
 SHA1 26425978dac25cdee265b48081e2a89e25cd4a35 t/00.basic.t
 SHA1 c3ae4b51a81956912e36bca143478c36c85d84e0 t/01.no.tabs.t
@@ -66,7 +66,7 @@ SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlVm/50ACgkQh4j7xTiFuxEXHACfQfw60XIjFeo6ciW2M3rxlXw8
-LDsAniMbgn0CWGgE9YH0vkLWTLz15v9g
-=Zt9D
+iEYEARECAAYFAlVnAhEACgkQh4j7xTiFuxGS0wCfRt3npW01XDD9GHDAAtNU0xXR
+BeUAni8EDK04PmpAvtTCjfe8pKl74B6a
+=iEQq
 -----END PGP SIGNATURE-----
