@@ -1,8 +1,8 @@
 package Catalyst::Plugin::ErrorCatcher;
-$Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.18';
 {
   $Catalyst::Plugin::ErrorCatcher::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
+$Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.19';
 # ABSTRACT: Catch application errors and emit them somewhere
 use Moose;
     with 'Catalyst::ClassData';
@@ -564,6 +564,8 @@ sub _print_context {
 
 1;
 
+__END__
+
 =pod
 
 =encoding UTF-8
@@ -574,7 +576,7 @@ Catalyst::Plugin::ErrorCatcher - Catch application errors and emit them somewher
 
 =head1 VERSION
 
-version 0.0.8.18
+version 0.0.8.19
 
 =head1 SYNOPSIS
 
@@ -818,9 +820,7 @@ code was used.
 Ash Berlin for guiding me in the right direction after a known hacky first
 implementation.
 
-=head1 CONTRIBUTORS
-
-Fitz Elliot L<https://github.com/felliott/>
+# vim: ts=8 sts=4 et sw=4 sr sta
 
 =head1 AUTHOR
 
@@ -833,9 +833,28 @@ This software is copyright (c) 2015 by Chisel Wright.
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
+=head1 CONTRIBUTORS
+
+=for stopwords Chisel Wright Fitz Elliott Mohammad S Anwar Tim Bunce
+
+=over 4
+
+=item *
+
+Chisel Wright <chisel@chizography.net>
+
+=item *
+
+Fitz Elliott <fitz.elliott@gmail.com>
+
+=item *
+
+Mohammad S Anwar <mohammad.anwar@yahoo.com>
+
+=item *
+
+Tim Bunce <tim@tigerlms.com>
+
+=back
+
 =cut
-
-__END__
-
-
-# vim: ts=8 sts=4 et sw=4 sr sta

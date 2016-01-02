@@ -1,0 +1,133 @@
+{
+   "abstract" : "Catch application errors and emit them somewhere",
+   "author" : [
+      "Chisel <chisel@chizography.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.037, CPAN::Meta::Converter version 2.143240",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Catalyst-Plugin-ErrorCatcher",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Kwalitee" : "1.21",
+            "Test::More" : "0.88",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Catalyst::ClassData" : "0",
+            "Data::Dump" : "0",
+            "DateTime" : "0",
+            "File::Slurp" : "0",
+            "File::Type" : "0",
+            "IO::File" : "0",
+            "MIME::Lite" : "0",
+            "Module::Pluggable::Object" : "0",
+            "Moose" : "0",
+            "Path::Class" : "0",
+            "Sys::Hostname" : "0",
+            "perl" : "5.008004",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Catalyst" : "0",
+            "Catalyst::Controller" : "0",
+            "Catalyst::Plugin::Authentication" : "0.10010",
+            "Catalyst::Plugin::ConfigLoader" : "0.22",
+            "Catalyst::Plugin::Session" : "0",
+            "Catalyst::Plugin::Session::State::Cookie" : "0",
+            "Catalyst::Plugin::Session::Store::File" : "0",
+            "Catalyst::Plugin::StackTrace" : "0.10",
+            "Catalyst::Runtime" : "5.80",
+            "Catalyst::Test" : "0",
+            "Config::General" : "0",
+            "DateTime" : "0",
+            "File::Find::Rule" : "0",
+            "File::Path" : "0",
+            "File::Slurp" : "0",
+            "File::Spec::Functions" : "0",
+            "FindBin::libs" : "0",
+            "HTTP::Request::Common" : "0",
+            "IO::File" : "0",
+            "MIME::Lite" : "0",
+            "MRO::Compat" : "0",
+            "Path::Class" : "0",
+            "Sys::Hostname" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0.92",
+            "Test::UseAllModules" : "0",
+            "base" : "0",
+            "namespace::autoclean" : "0",
+            "overload" : "0",
+            "version" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Catalyst::Plugin::ErrorCatcher" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Email" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Email.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::File" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/File.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::CaughtException" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm"
+      },
+      "Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo" : {
+         "file" : "lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/chiselwright/Catalyst-Plugin-ErrorCatcher/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/chiselwright/catalyst-plugin-errorcatcher.git",
+         "web" : "https://github.com/chiselwright/catalyst-plugin-errorcatcher"
+      }
+   },
+   "version" : "0.0.8.19",
+   "x_contributors" : [
+      "Chisel Wright <chisel@chizography.net>",
+      "Fitz Elliott <fitz.elliott@gmail.com>",
+      "Mohammad S Anwar <mohammad.anwar@yahoo.com>",
+      "Tim Bunce <tim@tigerlms.com>"
+   ]
+}
+

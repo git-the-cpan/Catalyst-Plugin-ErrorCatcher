@@ -36,12 +36,31 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.032, CPAN::Meta::Converter version 2.143240'
+generated_by: 'Dist::Zilla version 5.037, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Catalyst-Plugin-ErrorCatcher
+provides:
+  Catalyst::Plugin::ErrorCatcher:
+    file: lib/Catalyst/Plugin/ErrorCatcher.pm
+  Catalyst::Plugin::ErrorCatcher::Email:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Email.pm
+  Catalyst::Plugin::ErrorCatcher::File:
+    file: lib/Catalyst/Plugin/ErrorCatcher/File.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::CaughtException:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::TransactionAborted:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::UniqueConstraintViolation:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
+  Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo:
+    file: lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
 requires:
   Catalyst::ClassData: '0'
   Data::Dump: '0'
@@ -60,4 +79,9 @@ requires:
 resources:
   bugtracker: http://github.com/chiselwright/Catalyst-Plugin-ErrorCatcher/issues
   repository: git://github.com/chiselwright/catalyst-plugin-errorcatcher.git
-version: 0.0.8.18
+version: 0.0.8.19
+x_contributors:
+  - 'Chisel Wright <chisel@chizography.net>'
+  - 'Fitz Elliott <fitz.elliott@gmail.com>'
+  - 'Mohammad S Anwar <mohammad.anwar@yahoo.com>'
+  - 'Tim Bunce <tim@tigerlms.com>'
