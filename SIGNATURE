@@ -14,9 +14,9 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ef94c85045ac069444391caa04daf6c907bb98de Changes
+SHA1 f9130540cd8aa25a310f80d074f5e6f96c816978 Changes
 SHA1 ccee2d33d830e2dabe61e50e27da259cd43b29a5 LICENSE
-SHA1 0c57b83d2ff3bc314e2fa03aea4693e0f2aa4e3f MANIFEST
+SHA1 033082cf5931d4a66ce5687de9e803ca2ef75a58 MANIFEST
 SHA1 24a5a60c1c311b8915392fc17bc4e4ca4bbe10e4 MANIFEST.SKIP
 SHA1 cef9d3b24c73a11af2e7d8d191023c930b4f625b META.json
 SHA1 1580b770bfcffd9b025971345531f887927d7396 META.yml
@@ -31,6 +31,16 @@ SHA1 c2c554191f94a59c9e8efe4a99fca3be08167338 lib/Catalyst/Plugin/ErrorCatcher/P
 SHA1 ed37c1ec4847e9e822ff5914a441124e155bb52b lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
 SHA1 9fd96149b413cc5990e01355ab37f83eefb0565f lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
 SHA1 798caea67c833f322e9645788a495415179f1489 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
+SHA1 bad45123d4184a7d07244fb4a82bda7180361449 script/buildkite-init/build-project
+SHA1 613a74766b6fbaea8337d3ab6677b42c6fe1381d script/buildkite-init/create-project
+SHA1 bb92ca4644ee9cc476e677b44d835886cb220232 script/buildkite/README.md
+SHA1 d4426c3a7150a7a522cb0617b5e0b6c806995b5e script/buildkite/dzil-authordeps
+SHA1 7872b53eabda8b053bc1e540724da4dd721a3751 script/buildkite/dzil-distrodeps
+SHA1 e68ecb276d56454d75134d2afb1176550fcfd378 script/buildkite/dzil-install
+SHA1 176466926452610b5b7b808082e3603ed77215ad script/buildkite/dzil-tests-basic
+SHA1 ef72d3dd2bdde3b4eabeedb9ff49c0c3678d45ff script/buildkite/dzil-tests-full
+SHA1 49517961df86d76537175dc72211fc4bb9c1d5cf script/buildkite/perlbrew-install
+SHA1 0f841effbeb886bcbe1d88f8a7e2c29974c2a8e0 script/buildkite/perlbrew-setup
 SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
 SHA1 26425978dac25cdee265b48081e2a89e25cd4a35 t/00.basic.t
 SHA1 c3ae4b51a81956912e36bca143478c36c85d84e0 t/01.no.tabs.t
@@ -68,7 +78,7 @@ SHA1 91bacb1498d0fb115ed2f1130ffbe8d593931a2d weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlaHyokACgkQh4j7xTiFuxGNSQCdF5DQdblM8t2nk6IvV8YZ5T2f
-bmMAoLTgF1InNkDQBs0vipuJ1NCgl+Kv
-=tE0/
+iEYEARECAAYFAlaL2wsACgkQh4j7xTiFuxHGHgCgi+ZNdcxGvXQZWjsWeUUg900b
+nn4An3Vt+hMNkX/j2vZNtAVQ2WGQhTjM
+=W/5K
 -----END PGP SIGNATURE-----
