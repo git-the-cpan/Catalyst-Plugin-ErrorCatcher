@@ -14,24 +14,23 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 f9130540cd8aa25a310f80d074f5e6f96c816978 Changes
+SHA1 415c505e970ed9bda6058b3a19adfe935ab1fa7d Changes
 SHA1 ccee2d33d830e2dabe61e50e27da259cd43b29a5 LICENSE
-SHA1 033082cf5931d4a66ce5687de9e803ca2ef75a58 MANIFEST
+SHA1 96415539d48409216ad4a7274bd80167bff485f8 MANIFEST
 SHA1 24a5a60c1c311b8915392fc17bc4e4ca4bbe10e4 MANIFEST.SKIP
-SHA1 cef9d3b24c73a11af2e7d8d191023c930b4f625b META.json
-SHA1 1580b770bfcffd9b025971345531f887927d7396 META.yml
-SHA1 73c86703ca27d8ad71dcfbbc6cf1a90894a8b298 Makefile.PL
-SHA1 0a2c26c44e57ba84b0beb6782b27a2c658c61071 README.mkdn
-SHA1 4b3328b6a35d3403839e96d4167941ee2165531a lib/Catalyst/Plugin/ErrorCatcher.pm
-SHA1 853cf6eba39221620c0745e82edcc9cd4cfd6e6a lib/Catalyst/Plugin/ErrorCatcher/Email.pm
-SHA1 329d0107547a2b204a429c871abb463f01485998 lib/Catalyst/Plugin/ErrorCatcher/File.pm
-SHA1 bf29928b88c5e6d140404dce8786392cbaab13ac lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
-SHA1 b895fb5876b2c70c02f73f5799a4108eff1cae54 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
-SHA1 c2c554191f94a59c9e8efe4a99fca3be08167338 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
-SHA1 ed37c1ec4847e9e822ff5914a441124e155bb52b lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
-SHA1 9fd96149b413cc5990e01355ab37f83eefb0565f lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
-SHA1 798caea67c833f322e9645788a495415179f1489 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
-SHA1 bad45123d4184a7d07244fb4a82bda7180361449 script/buildkite-init/build-project
+SHA1 912e263a481f1354ed2977df8973f7504c6b1b30 META.json
+SHA1 6efb817eef3210b997b55808c10bcbb974bf63a9 META.yml
+SHA1 5e4a95d2cd025fed2b697d25a9cceff6a7795831 Makefile.PL
+SHA1 55a8423ab27964ea5c682f3c4511a591cfff67ca README.mkdn
+SHA1 c5a2898a450b3e356e1b067604d17f32f0028017 lib/Catalyst/Plugin/ErrorCatcher.pm
+SHA1 1d8422972b27af8848c26b307dc94b31ecf854bc lib/Catalyst/Plugin/ErrorCatcher/Email.pm
+SHA1 7ab47a5999a09b039ee5e7cf6f4fdabcd33d528f lib/Catalyst/Plugin/ErrorCatcher/File.pm
+SHA1 86399aaa3d73d4448e6ab2b44180d53991a74328 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
+SHA1 812d813dba6807ddc2978025b28ae574a7334c77 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
+SHA1 6ce6c8221a974ff75a6667025bfb79e25a2b5667 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
+SHA1 d11c7b13c581588f6415e9926a9e5ca9a734ccd6 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
+SHA1 f20723ec2536991aa30802c661403685444c0817 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
+SHA1 bd8347c691c81b03f717d3651229a4cd2a1736db lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
 SHA1 613a74766b6fbaea8337d3ab6677b42c6fe1381d script/buildkite-init/create-project
 SHA1 bb92ca4644ee9cc476e677b44d835886cb220232 script/buildkite/README.md
 SHA1 d4426c3a7150a7a522cb0617b5e0b6c806995b5e script/buildkite/dzil-authordeps
@@ -54,7 +53,9 @@ SHA1 fe7e4295876d190c845f400ba66a7d4cae33b58a t/06.emit.file.t
 SHA1 c5aa1228ab516de6153d12b79093d3f8423826b8 t/07.emitter.moose.new.t
 SHA1 5faa0dc35b67d836aeb39f2c92ed0f0d7aa14043 t/07.emitter.new.t
 SHA1 ca7482937c18a99f4ad81499fe405736c24f7c43 t/08.report.session.t
-SHA1 af1e333f2f8cd0da47082aef02c58b1b97dda892 t/author-no-tabs.t
+SHA1 099852ab590292460856abc13bb83378323e4356 t/author-no-tabs.t
+SHA1 d361ce075754a8cc9307cfdd64e2729986714579 t/author-pod-coverage.t
+SHA1 d2eebabfd34d330bd59043a4b6879faf4de7229d t/author-pod-syntax.t
 SHA1 bffcfa9f1495668abb077ace9bb4073ac76e50bf t/bug/RT54071.t
 SHA1 1ca03a0e31807ead5612c4774801279f2249c0be t/lib/My/Emitter.pm
 SHA1 3ec6fd5342b508414543726f13451dd2a5521b1d t/lib/My/MooseEmitter.pm
@@ -72,13 +73,11 @@ SHA1 bf4c1c102f14922f9cf09994fcd63a4f1be3546d t/lib/testapp.conf
 SHA1 af2865e9a987a3976f029b6a7890c3f57737cd95 t/lib/testapp_emitinit.conf
 SHA1 5454005a457f0f8c6915a0de69ab5fc599e6b07b t/lib/testapp_mooseemitinit.conf
 SHA1 a8a3b6c291113fff0f1765ef584a08bc4498bdc0 t/release-kwalitee.t
-SHA1 5cf386f49901e8ccaad5ab271036754d67114081 t/release-pod-coverage.t
-SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
 SHA1 91bacb1498d0fb115ed2f1130ffbe8d593931a2d weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlaL2wsACgkQh4j7xTiFuxHGHgCgi+ZNdcxGvXQZWjsWeUUg900b
-nn4An3Vt+hMNkX/j2vZNtAVQ2WGQhTjM
-=W/5K
+iEYEARECAAYFAlaM7IUACgkQh4j7xTiFuxFCHgCgvRygxkpJhV7KBJwk5HH9KkCV
+tIMAoIMlt2DLnpvTIjIcvdurRv7wvuRm
+=s9/x
 -----END PGP SIGNATURE-----

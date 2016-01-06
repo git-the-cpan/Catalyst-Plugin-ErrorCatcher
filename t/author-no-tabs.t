@@ -38,6 +38,8 @@ my @files = (
     't/07.emitter.new.t',
     't/08.report.session.t',
     't/author-no-tabs.t',
+    't/author-pod-coverage.t',
+    't/author-pod-syntax.t',
     't/bug/RT54071.t',
     't/lib/My/Emitter.pm',
     't/lib/My/MooseEmitter.pm',
@@ -54,9 +56,7 @@ my @files = (
     't/lib/testapp.conf',
     't/lib/testapp_emitinit.conf',
     't/lib/testapp_mooseemitinit.conf',
-    't/release-kwalitee.t',
-    't/release-pod-coverage.t',
-    't/release-pod-syntax.t'
+    't/release-kwalitee.t'
 );
 
 notabs_ok($_) foreach @files;

@@ -1,8 +1,9 @@
 package Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn;
+$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn::VERSION = '0.0.8.20';
 {
   $Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
-$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn::VERSION = '0.0.8.19';
+
 use strict;
 use warnings;
 
@@ -41,7 +42,7 @@ Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::MissingColumn - cleanup col
 
 =head1 VERSION
 
-version 0.0.8.19
+version 0.0.8.20
 
 =head2 tidy_message($self, $stringref)
 

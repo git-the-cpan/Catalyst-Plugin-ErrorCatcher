@@ -1,8 +1,9 @@
 package Catalyst::Plugin::ErrorCatcher;
+$Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.20';
 {
   $Catalyst::Plugin::ErrorCatcher::DIST = 'Catalyst-Plugin-ErrorCatcher';
 }
-$Catalyst::Plugin::ErrorCatcher::VERSION = '0.0.8.19';
+
 # ABSTRACT: Catch application errors and emit them somewhere
 use Moose;
     with 'Catalyst::ClassData';
@@ -576,7 +577,7 @@ Catalyst::Plugin::ErrorCatcher - Catch application errors and emit them somewher
 
 =head1 VERSION
 
-version 0.0.8.19
+version 0.0.8.20
 
 =head1 SYNOPSIS
 
