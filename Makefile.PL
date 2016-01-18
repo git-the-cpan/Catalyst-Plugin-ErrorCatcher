@@ -63,7 +63,7 @@ my %WriteMakefileArgs = (
     "overload" => 0,
     "version" => 0
   },
-  "VERSION" => "0.0.8.20",
+  "VERSION" => "0.0.8.21",
   "test" => {
     "TESTS" => "t/*.t t/bug/*.t"
   }

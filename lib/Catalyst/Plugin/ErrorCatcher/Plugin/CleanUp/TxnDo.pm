@@ -1,9 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo;
-$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo::VERSION = '0.0.8.20';
-{
-  $Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo::DIST = 'Catalyst-Plugin-ErrorCatcher';
-}
-
+$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo::VERSION = '0.0.8.21';
 use strict;
 use warnings;
 
@@ -43,7 +39,7 @@ Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::TxnDo - cleanup txn_do messages
 
 =head1 VERSION
 
-version 0.0.8.20
+version 0.0.8.21
 
 =head2 tidy_message($self, $stringref)
 

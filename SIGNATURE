@@ -14,23 +14,23 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 415c505e970ed9bda6058b3a19adfe935ab1fa7d Changes
+SHA1 2788511f913fd4c83bc3b892b11583238739735e Changes
 SHA1 ccee2d33d830e2dabe61e50e27da259cd43b29a5 LICENSE
 SHA1 96415539d48409216ad4a7274bd80167bff485f8 MANIFEST
 SHA1 24a5a60c1c311b8915392fc17bc4e4ca4bbe10e4 MANIFEST.SKIP
-SHA1 912e263a481f1354ed2977df8973f7504c6b1b30 META.json
-SHA1 6efb817eef3210b997b55808c10bcbb974bf63a9 META.yml
-SHA1 5e4a95d2cd025fed2b697d25a9cceff6a7795831 Makefile.PL
-SHA1 55a8423ab27964ea5c682f3c4511a591cfff67ca README.mkdn
-SHA1 c5a2898a450b3e356e1b067604d17f32f0028017 lib/Catalyst/Plugin/ErrorCatcher.pm
-SHA1 1d8422972b27af8848c26b307dc94b31ecf854bc lib/Catalyst/Plugin/ErrorCatcher/Email.pm
-SHA1 7ab47a5999a09b039ee5e7cf6f4fdabcd33d528f lib/Catalyst/Plugin/ErrorCatcher/File.pm
-SHA1 86399aaa3d73d4448e6ab2b44180d53991a74328 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
-SHA1 812d813dba6807ddc2978025b28ae574a7334c77 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
-SHA1 6ce6c8221a974ff75a6667025bfb79e25a2b5667 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
-SHA1 d11c7b13c581588f6415e9926a9e5ca9a734ccd6 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
-SHA1 f20723ec2536991aa30802c661403685444c0817 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
-SHA1 bd8347c691c81b03f717d3651229a4cd2a1736db lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
+SHA1 21ad5a356b644f50c979084677a200765decb338 META.json
+SHA1 43950accf0e9e8688fd0b178b2ee709144f15606 META.yml
+SHA1 5ea99daef209cf1108f9b87bdf0b8b17cda722e7 Makefile.PL
+SHA1 a98e042b700d72ce8feade80630b698117281a03 README.mkdn
+SHA1 4e012405ca90679b4ddb1f9aeda48a18d0adbd9a lib/Catalyst/Plugin/ErrorCatcher.pm
+SHA1 87780382e3c65bd12a0ddce30fd10bbbf90ceab6 lib/Catalyst/Plugin/ErrorCatcher/Email.pm
+SHA1 070f2cb1ac91f42d134ef0274343b254a95e4dde lib/Catalyst/Plugin/ErrorCatcher/File.pm
+SHA1 c0a7e09cfd284d40337bce2b02d22a90cf8e632a lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/CaughtException.pm
+SHA1 66ba3144476739056fd7fae3a9d346d4679c961f lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/ForeignKeyConstraint.pm
+SHA1 82b220a2a979625c4ecb0546a22e7747e42fbf1e lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/MissingColumn.pm
+SHA1 a5cddc8d7f06a3df2afd83430cc1f6846d6680d5 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/TransactionAborted.pm
+SHA1 e6faccee102c50f20d33b55aa704a4432448f952 lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/Pg/UniqueConstraintViolation.pm
+SHA1 30d8ebc1d490415a512e643db3ed4d26f7b6096f lib/Catalyst/Plugin/ErrorCatcher/Plugin/CleanUp/TxnDo.pm
 SHA1 613a74766b6fbaea8337d3ab6677b42c6fe1381d script/buildkite-init/create-project
 SHA1 bb92ca4644ee9cc476e677b44d835886cb220232 script/buildkite/README.md
 SHA1 d4426c3a7150a7a522cb0617b5e0b6c806995b5e script/buildkite/dzil-authordeps
@@ -77,7 +77,7 @@ SHA1 91bacb1498d0fb115ed2f1130ffbe8d593931a2d weaver.ini
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlaM7IUACgkQh4j7xTiFuxFCHgCgvRygxkpJhV7KBJwk5HH9KkCV
-tIMAoIMlt2DLnpvTIjIcvdurRv7wvuRm
-=s9/x
+iEYEARECAAYFAladAkkACgkQh4j7xTiFuxFCbwCgvM9RilZDf0Z+4jo6X/cVL6ST
+fPIAoKevgt4DKDcOV4l0kWYhsW2yJ8vv
+=lneK
 -----END PGP SIGNATURE-----

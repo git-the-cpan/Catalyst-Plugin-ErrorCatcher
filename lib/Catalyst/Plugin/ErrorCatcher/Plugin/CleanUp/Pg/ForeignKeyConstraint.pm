@@ -1,9 +1,5 @@
 package Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint;
-$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint::VERSION = '0.0.8.20';
-{
-  $Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint::DIST = 'Catalyst-Plugin-ErrorCatcher';
-}
-
+$Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint::VERSION = '0.0.8.21';
 use strict;
 use warnings;
 
@@ -48,7 +44,7 @@ Catalyst::Plugin::ErrorCatcher::Plugin::CleanUp::Pg::ForeignKeyConstraint - clea
 
 =head1 VERSION
 
-version 0.0.8.20
+version 0.0.8.21
 
 =head2 tidy_message($self, $stringref)
 

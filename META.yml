@@ -79,7 +79,7 @@ requires:
 resources:
   bugtracker: http://github.com/chiselwright/Catalyst-Plugin-ErrorCatcher/issues
   repository: git://github.com/chiselwright/catalyst-plugin-errorcatcher.git
-version: 0.0.8.20
+version: 0.0.8.21
 x_contributors:
   - 'Chisel Wright <chisel@chizography.net>'
   - 'Fitz Elliott <fitz.elliott@gmail.com>'
